@@ -1,0 +1,15 @@
+{
+  "task_id": "GC-W-004",
+  "title": "Mapping Graph Hookup (KeyAnalogEvent)",
+  "version": "1.0",
+  "component": "GaymController.Wooting",
+  "reference": {"consulted": false, "files": [], "notes": ""},
+  "files": [
+    {"path": "src/GaymController.Wooting/RawHidProvider.cs", "sha256": "581cde33447db2531ace338bc4ecdee2372cd8d036e55deeb961e438b4a4be69"},
+    {"path": "src/GaymController.Wooting/GaymController.Wooting.csproj", "sha256": "cad456325967ef80f64b6f26b10f1265250472ddc73a15d2b5ede9d29ff39217"},
+    {"path": "src/GaymController.Wooting.Tests/GaymController.Wooting.Tests.csproj", "sha256": "59d9669474eace979e242bc76b9e133c4a4db927318573fbf44bfe2f48ec0f81"},
+    {"path": "src/GaymController.Wooting.Tests/RawHidProviderTests.cs", "sha256": "b51d9ac332dba3d749f3dc276f2d7a208acd66f9c64efc2eff7664246eacc444"}
+  ],
+  "wiring": {"how_to_hook": "Call RawHidProvider.FromJson with per-device mapping and subscribe to OnKeyAnalog."},
+  "results": {"perf_ms": 0, "notes": "dotnet test passed"}
+}

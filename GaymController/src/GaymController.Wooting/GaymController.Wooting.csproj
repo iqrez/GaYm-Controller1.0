@@ -6,4 +6,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\shared\Shared.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HidSharp" Version="2.1.0" />
+  </ItemGroup>
 </Project>

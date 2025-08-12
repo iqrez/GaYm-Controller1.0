@@ -1,0 +1,18 @@
+{
+  "task_id": "GC-W-001",
+  "title": "Raw HID Read Loop (1kHz, no allocs)",
+  "version": "0.1",
+  "component": "wooting",
+  "reference": {
+    "consulted": false,
+    "files": [],
+    "notes": ""
+  },
+  "files": [],
+  "wiring": {
+    "how_to_hook": ""
+  },
+  "results": {
+    "notes": ""
+  }
+}

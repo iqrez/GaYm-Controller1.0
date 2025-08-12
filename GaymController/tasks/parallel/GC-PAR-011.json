@@ -1,0 +1,18 @@
+{
+  "task_id": "GC-PAR-011",
+  "title": "Diagnostics Logging + ETW",
+  "component": "parallel",
+  "version": "0.1",
+  "reference": {
+    "consulted": false,
+    "files": [],
+    "notes": ""
+  },
+  "files": [],
+  "wiring": {
+    "how_to_hook": ""
+  },
+  "results": {
+    "notes": ""
+  }
+}

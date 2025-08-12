@@ -1,0 +1,18 @@
+{
+  "task_id": "GC-LG-001",
+  "title": "Extract Core Translator & Implement ILegacyMouseAim",
+  "version": "0.1",
+  "component": "legacy",
+  "reference": {
+    "consulted": false,
+    "files": [],
+    "notes": ""
+  },
+  "files": [],
+  "wiring": {
+    "how_to_hook": ""
+  },
+  "results": {
+    "notes": ""
+  }
+}

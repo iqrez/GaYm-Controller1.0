@@ -1,0 +1,18 @@
+{
+  "task_id": "GC-LG-003",
+  "title": "Replay & Compare (\u22640.5% error)",
+  "version": "0.1",
+  "component": "legacy",
+  "reference": {
+    "consulted": false,
+    "files": [],
+    "notes": ""
+  },
+  "files": [],
+  "wiring": {
+    "how_to_hook": ""
+  },
+  "results": {
+    "notes": ""
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "GC-PAR-023",
+  "title": "Tap-Dance/Combo Node",
+  "component": "parallel",
+  "version": "0.1",
+  "reference": {
+    "consulted": false,
+    "files": [],
+    "notes": ""
+  },
+  "files": [],
+  "wiring": {
+    "how_to_hook": ""
+  },
+  "results": {
+    "notes": ""
+  }
+}

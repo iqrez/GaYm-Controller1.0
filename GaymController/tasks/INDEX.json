@@ -1,0 +1,202 @@
+[
+  {
+    "id": "GC-PAR-001",
+    "md": "tasks/parallel/GC-PAR-001.md",
+    "json": "tasks/parallel/GC-PAR-001.json"
+  },
+  {
+    "id": "GC-PAR-002",
+    "md": "tasks/parallel/GC-PAR-002.md",
+    "json": "tasks/parallel/GC-PAR-002.json"
+  },
+  {
+    "id": "GC-PAR-003",
+    "md": "tasks/parallel/GC-PAR-003.md",
+    "json": "tasks/parallel/GC-PAR-003.json"
+  },
+  {
+    "id": "GC-PAR-004",
+    "md": "tasks/parallel/GC-PAR-004.md",
+    "json": "tasks/parallel/GC-PAR-004.json"
+  },
+  {
+    "id": "GC-PAR-005",
+    "md": "tasks/parallel/GC-PAR-005.md",
+    "json": "tasks/parallel/GC-PAR-005.json"
+  },
+  {
+    "id": "GC-PAR-006",
+    "md": "tasks/parallel/GC-PAR-006.md",
+    "json": "tasks/parallel/GC-PAR-006.json"
+  },
+  {
+    "id": "GC-PAR-007",
+    "md": "tasks/parallel/GC-PAR-007.md",
+    "json": "tasks/parallel/GC-PAR-007.json"
+  },
+  {
+    "id": "GC-PAR-008",
+    "md": "tasks/parallel/GC-PAR-008.md",
+    "json": "tasks/parallel/GC-PAR-008.json"
+  },
+  {
+    "id": "GC-PAR-009",
+    "md": "tasks/parallel/GC-PAR-009.md",
+    "json": "tasks/parallel/GC-PAR-009.json"
+  },
+  {
+    "id": "GC-PAR-010",
+    "md": "tasks/parallel/GC-PAR-010.md",
+    "json": "tasks/parallel/GC-PAR-010.json"
+  },
+  {
+    "id": "GC-PAR-011",
+    "md": "tasks/parallel/GC-PAR-011.md",
+    "json": "tasks/parallel/GC-PAR-011.json"
+  },
+  {
+    "id": "GC-PAR-012",
+    "md": "tasks/parallel/GC-PAR-012.md",
+    "json": "tasks/parallel/GC-PAR-012.json"
+  },
+  {
+    "id": "GC-PAR-013",
+    "md": "tasks/parallel/GC-PAR-013.md",
+    "json": "tasks/parallel/GC-PAR-013.json"
+  },
+  {
+    "id": "GC-PAR-014",
+    "md": "tasks/parallel/GC-PAR-014.md",
+    "json": "tasks/parallel/GC-PAR-014.json"
+  },
+  {
+    "id": "GC-PAR-015",
+    "md": "tasks/parallel/GC-PAR-015.md",
+    "json": "tasks/parallel/GC-PAR-015.json"
+  },
+  {
+    "id": "GC-PAR-016",
+    "md": "tasks/parallel/GC-PAR-016.md",
+    "json": "tasks/parallel/GC-PAR-016.json"
+  },
+  {
+    "id": "GC-PAR-017",
+    "md": "tasks/parallel/GC-PAR-017.md",
+    "json": "tasks/parallel/GC-PAR-017.json"
+  },
+  {
+    "id": "GC-PAR-018",
+    "md": "tasks/parallel/GC-PAR-018.md",
+    "json": "tasks/parallel/GC-PAR-018.json"
+  },
+  {
+    "id": "GC-PAR-019",
+    "md": "tasks/parallel/GC-PAR-019.md",
+    "json": "tasks/parallel/GC-PAR-019.json"
+  },
+  {
+    "id": "GC-PAR-020",
+    "md": "tasks/parallel/GC-PAR-020.md",
+    "json": "tasks/parallel/GC-PAR-020.json"
+  },
+  {
+    "id": "GC-PAR-021",
+    "md": "tasks/parallel/GC-PAR-021.md",
+    "json": "tasks/parallel/GC-PAR-021.json"
+  },
+  {
+    "id": "GC-PAR-022",
+    "md": "tasks/parallel/GC-PAR-022.md",
+    "json": "tasks/parallel/GC-PAR-022.json"
+  },
+  {
+    "id": "GC-PAR-023",
+    "md": "tasks/parallel/GC-PAR-023.md",
+    "json": "tasks/parallel/GC-PAR-023.json"
+  },
+  {
+    "id": "GC-PAR-024",
+    "md": "tasks/parallel/GC-PAR-024.md",
+    "json": "tasks/parallel/GC-PAR-024.json"
+  },
+  {
+    "id": "GC-PAR-025",
+    "md": "tasks/parallel/GC-PAR-025.md",
+    "json": "tasks/parallel/GC-PAR-025.json"
+  },
+  {
+    "id": "GC-PAR-026",
+    "md": "tasks/parallel/GC-PAR-026.md",
+    "json": "tasks/parallel/GC-PAR-026.json"
+  },
+  {
+    "id": "GC-PAR-027",
+    "md": "tasks/parallel/GC-PAR-027.md",
+    "json": "tasks/parallel/GC-PAR-027.json"
+  },
+  {
+    "id": "GC-PAR-028",
+    "md": "tasks/parallel/GC-PAR-028.md",
+    "json": "tasks/parallel/GC-PAR-028.json"
+  },
+  {
+    "id": "GC-PAR-029",
+    "md": "tasks/parallel/GC-PAR-029.md",
+    "json": "tasks/parallel/GC-PAR-029.json"
+  },
+  {
+    "id": "GC-PAR-030",
+    "md": "tasks/parallel/GC-PAR-030.md",
+    "json": "tasks/parallel/GC-PAR-030.json"
+  },
+  {
+    "id": "GC-W-001",
+    "md": "tasks/wooting/GC-W-001.md",
+    "json": "tasks/wooting/GC-W-001.json"
+  },
+  {
+    "id": "GC-W-002",
+    "md": "tasks/wooting/GC-W-002.md",
+    "json": "tasks/wooting/GC-W-002.json"
+  },
+  {
+    "id": "GC-W-003",
+    "md": "tasks/wooting/GC-W-003.md",
+    "json": "tasks/wooting/GC-W-003.json"
+  },
+  {
+    "id": "GC-W-004",
+    "md": "tasks/wooting/GC-W-004.md",
+    "json": "tasks/wooting/GC-W-004.json"
+  },
+  {
+    "id": "GC-W-005",
+    "md": "tasks/wooting/GC-W-005.md",
+    "json": "tasks/wooting/GC-W-005.json"
+  },
+  {
+    "id": "GC-LG-001",
+    "md": "tasks/compat/GC-LG-001.md",
+    "json": "tasks/compat/GC-LG-001.json"
+  },
+  {
+    "id": "GC-LG-002",
+    "md": "tasks/compat/GC-LG-002.md",
+    "json": "tasks/compat/GC-LG-002.json"
+  },
+  {
+    "id": "GC-LG-003",
+    "md": "tasks/compat/GC-LG-003.md",
+    "json": "tasks/compat/GC-LG-003.json"
+  },
+  {
+    "id": "GC-LG-004",
+    "md": "tasks/compat/GC-LG-004.md",
+    "json": "tasks/compat/GC-LG-004.json"
+  },
+  {
+    "id": "GC-LG-005",
+    "md": "tasks/compat/GC-LG-005.md",
+    "json": "tasks/compat/GC-LG-005.json"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "task_id": "GC-LG-002",
+  "title": "Golden Trace Capture (Legacy)",
+  "version": "0.1",
+  "component": "legacy",
+  "reference": {
+    "consulted": false,
+    "files": [],
+    "notes": ""
+  },
+  "files": [],
+  "wiring": {
+    "how_to_hook": ""
+  },
+  "results": {
+    "notes": ""
+  }
+}

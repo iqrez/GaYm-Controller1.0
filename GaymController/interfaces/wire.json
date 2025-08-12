@@ -1,0 +1,90 @@
+{
+  "version": "0.1",
+  "endianness": "little",
+  "frame": {
+    "len_u32": true,
+    "type_u16": true,
+    "flags_u16": true
+  },
+  "types": [
+    {
+      "id": 1,
+      "name": "HELLO",
+      "payload": [
+        "u32 proto=1"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "HELLO_OK",
+      "payload": [
+        "u32 caps"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "OPEN_CONTROLLER",
+      "payload": [
+        "u32 slot"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "OPEN_OK",
+      "payload": [
+        "u64 handle"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "SET_STATE",
+      "payload": [
+        "u64 handle",
+        "VPadGamepadState state"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "ACK",
+      "payload": [
+        "u32 echoType"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "CLOSE_CONTROLLER",
+      "payload": [
+        "u64 handle"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "RUMBLE_SUBSCRIBE",
+      "payload": [
+        "u64 handle"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "RUMBLE_EVENT",
+      "payload": [
+        "u64 handle",
+        "u16 low",
+        "u16 high"
+      ]
+    },
+    {
+      "id": 255,
+      "name": "ERROR",
+      "payload": [
+        "u32 code",
+        "u32 detail"
+      ]
+    }
+  ],
+  "limits": {
+    "max_frame_bytes": 65536,
+    "handshake_timeout_ms": 5000,
+    "idle_timeout_ms": 30000
+  }
+}

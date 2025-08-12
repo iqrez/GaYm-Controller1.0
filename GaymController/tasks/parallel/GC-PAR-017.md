@@ -4,7 +4,9 @@
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.
 
 ## Paths to touch
-- (fill with your implementation files)
+- shared/Mapping/Graph.cs
+- tests/MappingGraph.Tests/MappingGraph.Tests.csproj
+- tests/MappingGraph.Tests/GraphTests.cs
 
 ## Reference guidelines
 - Look for any related files in `reference/originals/*`, `reference/aim/*`, or `reference/traces/*`.

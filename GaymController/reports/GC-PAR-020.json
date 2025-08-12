@@ -1,8 +1,8 @@
 {
   "task_id": "GC-PAR-020",
   "title": "Anti-Recoil Node",
-  "component": "parallel",
   "version": "0.1",
+  "component": "parallel",
   "reference": {
     "consulted": false,
     "files": [],
@@ -11,12 +11,10 @@
   "files": [
     {"path": "shared/Mapping/Nodes.cs", "sha256": "d10c603c45b3ded8da599b5009fa1c74f80ee5a39783fd729538ec4a44610967"},
     {"path": "tests/Mapping.Tests/AntiRecoilNodeTests.cs", "sha256": "4d8a47b24a9dd4b7c8e45b1be66951db1dc92e52fdba043862f4b7fc802c33b0"},
-    {"path": "tests/Mapping.Tests/Mapping.Tests.csproj", "sha256": "61a1ea1fa2abb2377e550c7c09f32c5fd4508c561ca0f276ef4461845d257ac3"},
-    {"path": "reports/GC-PAR-020.md", "sha256": "5a6a472f9bc66499ebb4db3000e2221a53585662bf5c7de9c03bf2141ffdc0a7"},
-    {"path": "reports/GC-PAR-020.json", "sha256": "8c471a54bc81f7f40f515002ae80f83d3d8db51a701df70d4032bb497c78317b"}
+    {"path": "tests/Mapping.Tests/Mapping.Tests.csproj", "sha256": "61a1ea1fa2abb2377e550c7c09f32c5fd4508c561ca0f276ef4461845d257ac3"}
   ],
   "wiring": {
-    "how_to_hook": "Add AntiRecoilNode to the mapping graph and set Enabled true when users opt in."
+    "how_to_hook": "Instantiate AntiRecoilNode and enable it when the user opts in; feed Fire events to trigger compensation."
   },
   "results": {
     "notes": "dotnet test passed for anti-recoil node."

@@ -4,7 +4,13 @@
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.
 
 ## Paths to touch
-- (fill with your implementation files)
+- shared/Mapping/Nodes.cs
+- tests/Mapping.Tests/AntiRecoilNodeTests.cs
+- tests/Mapping.Tests/Mapping.Tests.csproj
+- tasks/parallel/GC-PAR-020.md
+- tasks/parallel/GC-PAR-020.json
+- reports/GC-PAR-020.md
+- reports/GC-PAR-020.json
 
 ## Reference guidelines
 - Look for any related files in `reference/originals/*`, `reference/aim/*`, or `reference/traces/*`.

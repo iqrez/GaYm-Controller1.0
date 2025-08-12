@@ -1,0 +1,25 @@
+{
+  "task_id": "GC-PAR-006",
+  "title": "Func Driver IOCTL Stub",
+  "version": "0.1",
+  "component": "parallel",
+  "reference": {
+    "consulted": true,
+    "files": [
+      "reference/k/include/VPadShared.h",
+      "reference/k/src/drivers/func/VPadFunc.c"
+    ],
+    "notes": ""
+  },
+  "files": [
+    {"path": "interfaces/gc_func_ioctl.h", "sha256": "2c576ee03286c7fe3960fe41ba37fa35876a0273f4af30d5194965fbe40cd321"},
+    {"path": "mocks/gc_func_driver.c", "sha256": "25958f021e0e0795a5ad6aff346fed3af5d47ed901629aeae85c4d97da160692"},
+    {"path": "mocks/gc_func_driver_test.c", "sha256": "fc6cc5a40bd99f60b6fca19ceaa82089bf245c7dac18bdf26497f52112009e54"}
+  ],
+  "wiring": {
+    "how_to_hook": "Include gc_func_ioctl.h and link gc_func_driver.c in user-mode components to simulate driver IOCTL calls."
+  },
+  "results": {
+    "notes": "gcc test passed"
+  }
+}

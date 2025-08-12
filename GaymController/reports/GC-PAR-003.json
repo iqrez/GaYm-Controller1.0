@@ -1,0 +1,25 @@
+{
+  "task_id": "GC-PAR-003",
+  "title": "Broker Wire \u2194 Mock App",
+  "version": "0.1",
+  "component": "parallel",
+  "reference": {
+    "consulted": true,
+    "files": ["reference/k/docs/EMBEDDING.md"],
+    "notes": ""
+  },
+  "files": [
+    {"path":"mocks/BrokerWire/BrokerWire.csproj","sha256":"c5724d9aca5a0f9ed6892abb8f22ddd609b1e5f44b4ce0751a1d68de361e9a4b"},
+    {"path":"mocks/BrokerWire/MockBroker.cs","sha256":"d6626e17c80d0468d7b799c3770ad470ff0b9d750e61273c5fd92197fb9526df"},
+    {"path":"mocks/BrokerWire/MockApp.cs","sha256":"af01b0e875901a749f0564c18876998bb859d6ac55114ef90c6d33a032ac7d5e"},
+    {"path":"mocks/BrokerWire/WireIO.cs","sha256":"fa6533727294f6414e625cae6a14127b4a30cc7b2c22b317c53807b99dd8b1e0"},
+    {"path":"mocks/BrokerWire.Tests/BrokerWire.Tests.csproj","sha256":"2b0d15f7b116e745655afe7a6d1235f57418bb987dee1b5a54944c7c21314b31"},
+    {"path":"mocks/BrokerWire.Tests/BrokerWireTests.cs","sha256":"69652fd9a8f0c6c975ea7d1b92b3576812a71f1544f2f8ce720e211a55ee1d78"}
+  ],
+  "wiring": {
+    "how_to_hook": "Use MockBroker and MockApp to exercise broker communication over the NamedPipe. Reference BrokerWire from components needing the wire."
+  },
+  "results": {
+    "notes": "dotnet test on BrokerWire.Tests passes"
+  }
+}

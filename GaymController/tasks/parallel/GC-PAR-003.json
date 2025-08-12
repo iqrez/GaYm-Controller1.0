@@ -4,15 +4,22 @@
   "component": "parallel",
   "version": "0.1",
   "reference": {
-    "consulted": false,
-    "files": [],
+    "consulted": true,
+    "files": ["reference/k/docs/EMBEDDING.md"],
     "notes": ""
   },
-  "files": [],
+  "files": [
+    "mocks/BrokerWire/BrokerWire.csproj",
+    "mocks/BrokerWire/MockBroker.cs",
+    "mocks/BrokerWire/MockApp.cs",
+    "mocks/BrokerWire/WireIO.cs",
+    "mocks/BrokerWire.Tests/BrokerWire.Tests.csproj",
+    "mocks/BrokerWire.Tests/BrokerWireTests.cs"
+  ],
   "wiring": {
-    "how_to_hook": ""
+    "how_to_hook": "Reference the BrokerWire library and use MockApp to speak to the mock broker over the NamedPipe; run tests to verify handshake."
   },
   "results": {
-    "notes": ""
+    "notes": "xUnit handshake test passes"
   }
 }

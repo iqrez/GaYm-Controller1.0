@@ -1,0 +1,23 @@
+{
+  "task_id": "GC-PAR-019",
+  "title": "Curve Editor + LUT",
+  "version": "0.1.0",
+  "component": "parallel",
+  "reference": {
+    "consulted": false,
+    "files": [],
+    "notes": ""
+  },
+  "files": [
+    {"path": "shared/CurveLutBuilder.cs", "sha256": "43c96bbdec20414d4f62e904520156575eedb4e69dbc47df6c573e6d1abc0cca"},
+    {"path": "src/GaymController.App/UI/CurveEditor.cs", "sha256": "fe88746972c548b3b450330cb2eb560692452c0c6f775422b00c6fd3a148c129"},
+    {"path": "tests/GaymController.App.Tests/CurveEditorTests.cs", "sha256": "9451e8d59e86b31a1190e1de790e690a51071f5c971119725af69e00a6ee6264"}
+  ],
+  "wiring": {
+    "how_to_hook": "Instantiate CurveEditor in UI and call ExportLut() to retrieve 256-entry lookup table."
+  },
+  "results": {
+    "perf_ms": 0,
+    "notes": "dotnet test passed"
+  }
+}

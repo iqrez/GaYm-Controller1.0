@@ -4,7 +4,11 @@
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.
 
 ## Paths to touch
-- (fill with your implementation files)
+- src/GaymController.App/UI/CurveEditor.cs
+- shared/CurveLutBuilder.cs
+- tests/GaymController.App.Tests/CurveEditorTests.cs
+- reports/GC-PAR-019.md
+- reports/GC-PAR-019.json
 
 ## Reference guidelines
 - Look for any related files in `reference/originals/*`, `reference/aim/*`, or `reference/traces/*`.

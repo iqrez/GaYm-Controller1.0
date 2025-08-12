@@ -1,0 +1,25 @@
+{
+  "task_id": "GC-PAR-005",
+  "title": "Broker Session Manager",
+  "version": "0.1",
+  "component": "parallel",
+  "reference": {
+    "consulted": false,
+    "files": [],
+    "notes": ""
+  },
+  "files": [
+    {"path": "src/GaymController.Broker/GaymController.Broker.csproj"},
+    {"path": "src/GaymController.Broker/Program.cs"},
+    {"path": "src/GaymController.Broker/GcService.cs"},
+    {"path": "src/GaymController.Broker/SessionManager.cs"},
+    {"path": "tests/GaymController.Broker.Tests/GaymController.Broker.Tests.csproj"},
+    {"path": "tests/GaymController.Broker.Tests/BrokerSessionManagerTests.cs"}
+  ],
+  "wiring": {
+    "how_to_hook": "GcService creates SessionManager for each pipe connection"
+  },
+  "results": {
+    "notes": ""
+  }
+}

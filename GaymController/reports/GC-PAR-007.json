@@ -1,0 +1,27 @@
+{
+  "task_id": "GC-PAR-007",
+  "title": "HID Read Path + Descriptor",
+  "version": "1.0",
+  "component": "drivers/gc_func",
+  "reference": {
+    "consulted": true,
+    "files": [
+      "reference/k/src/drivers/func/HidDescriptor.h",
+      "reference/k/src/drivers/func/VPadFunc.c",
+      "reference/k/include/VPadShared.h"
+    ]
+  },
+  "files": [
+    {"path": "drivers/gc_func/HidDescriptor.h", "sha256": "6ab5c0685e8e644bbe38bd262699fafd1fca870f65ab751d508d7c5cc2f66355"},
+    {"path": "drivers/gc_func/GcFunc.h", "sha256": "f1435f149662c57d7cc2654182e12558566269b34b220041bd4af58e232ddb44"},
+    {"path": "drivers/gc_func/GcFunc.c", "sha256": "da8c4865f8cd458521aeed9ecda5aab6c7222e8f58e3c05a820e6a82e61264bd"},
+    {"path": "drivers/gc_func/VPadShared.h", "sha256": "f1888808ee9f322aeb780d56f542dc583495403b4174a056a0d9af521614460e"},
+    {"path": "tests/gc_func_descriptor_test.c", "sha256": "17e2c8785516d86bd5256c2322c09ee68db3cb16d68390ade4fc46841ce8547a"}
+  ],
+  "wiring": {
+    "how_to_hook": "Install gc_func.sys on the virtual bus; VHF uses g_GcReportDescriptor during device add."
+  },
+  "results": {
+    "notes": "gcc harness prints descriptor size"
+  }
+}

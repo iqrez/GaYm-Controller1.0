@@ -4,7 +4,11 @@
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.
 
 ## Paths to touch
-- (fill with your implementation files)
+- interfaces/MappingGraphKernel.cs
+- mocks/MappingGraphKernel/MappingGraphKernel.cs
+- mocks/MappingGraphKernel/MappingGraphKernel.csproj
+- mocks/MappingGraphKernel.Tests/MappingGraphKernel.Tests.csproj
+- mocks/MappingGraphKernel.Tests/MappingGraphKernelTests.cs
 
 ## Reference guidelines
 - Look for any related files in `reference/originals/*`, `reference/aim/*`, or `reference/traces/*`.

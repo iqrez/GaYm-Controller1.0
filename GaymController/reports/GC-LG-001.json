@@ -1,0 +1,31 @@
+{
+  "task_id": "GC-LG-001",
+  "title": "Extract Core Translator & Implement ILegacyMouseAim",
+  "version": "1.0",
+  "component": "LegacyMouseAim.Legacy plugin",
+  "reference": {
+    "consulted": true,
+    "files": [
+      "reference/PERFECT/Processing/CurveProcessor.cs",
+      "reference/PERFECT/Processing/StickMapper.cs"
+    ]
+  },
+  "files": [
+    {"path":"plugins/LegacyMouseAim.Legacy/ILegacyMouseAim.cs"},
+    {"path":"plugins/LegacyMouseAim.Legacy/LegacyMouseAim.cs"},
+    {"path":"plugins/LegacyMouseAim.Legacy/LegacyMouseAim.Legacy.csproj"},
+    {"path":"tools/LegacyAimHarness/BaselineCurve.cs"},
+    {"path":"tools/LegacyAimHarness/Program.cs"},
+    {"path":"tools/LegacyAimHarness/LegacyAimHarness.csproj"},
+    {"path":"tools/LegacyAimHarness/sample.csv"},
+    {"path":"reports/GC-LG-001.md"},
+    {"path":"reports/GC-LG-001.json"}
+  ],
+  "wiring": {
+    "how_to_hook": "Reference LegacyMouseAim.Legacy and call ILegacyMouseAim.ToStick with raw mouse deltas."
+  },
+  "results": {
+    "perf_ms": 0,
+    "notes": "Harness compared plugin against baseline across 5 samples with zero error."
+  }
+}

@@ -8,11 +8,15 @@
     "files": [],
     "notes": ""
   },
-  "files": [],
+  "files": [
+    "src/GaymController.Wooting/GaymController.Wooting.csproj",
+    "src/GaymController.Wooting/RawHidProvider.cs",
+    "src/GaymController.Wooting.Tests/RawHidProviderTests.cs"
+  ],
   "wiring": {
-    "how_to_hook": ""
+    "how_to_hook": "Instantiate RawHidProvider and call Start to select a Wooting HID path."
   },
   "results": {
-    "notes": ""
+    "notes": "dotnet test"
   }
 }

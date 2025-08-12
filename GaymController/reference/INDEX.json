@@ -1,0 +1,176 @@
+[
+  {
+    "file": "k.zip",
+    "sha256": "e2b0d5dcdef6eba225d4800571c94cd5d1ffccb6826b4ddd3bbc78d50a5bc19c",
+    "bytes": 35860645,
+    "entries_sample": [
+      {
+        "filename": "k/",
+        "size": 0
+      },
+      {
+        "filename": "k/.github/",
+        "size": 0
+      },
+      {
+        "filename": "k/.github/workflows/",
+        "size": 0
+      },
+      {
+        "filename": "k/.github/workflows/build.yml",
+        "size": 1041
+      },
+      {
+        "filename": "k/.vs/",
+        "size": 0
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/",
+        "size": 0
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/28C7EF4608EACA488CFD02C4DD8E7FFE/",
+        "size": 0
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/28C7EF4608EACA488CFD02C4DD8E7FFE/3E5EE3F928235247B9C616F39E0B02EB/",
+        "size": 0
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/28C7EF4608EACA488CFD02C4DD8E7FFE/3E5EE3F928235247B9C616F39E0B02EB/088C687D90B92FAA1ED2372E717FCC4A",
+        "size": 225
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/28C7EF4608EACA488CFD02C4DD8E7FFE/3E5EE3F928235247B9C616F39E0B02EB/419E2BED50C4C2BA992CC0D56EE473FA",
+        "size": 225
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/28C7EF4608EACA488CFD02C4DD8E7FFE/state.mpack",
+        "size": 1586
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/97801C971DB72B46B835F4389EB7B6D4/",
+        "size": 0
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/97801C971DB72B46B835F4389EB7B6D4/A59C783CAD93A04F836D381EDB90B11D/",
+        "size": 0
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/97801C971DB72B46B835F4389EB7B6D4/A59C783CAD93A04F836D381EDB90B11D/079A9A1416D58BAA178B4E3532DBA07B",
+        "size": 3
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/97801C971DB72B46B835F4389EB7B6D4/A59C783CAD93A04F836D381EDB90B11D/10AC3D6F30E5B2F4B38C8B16EC117F03",
+        "size": 3
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/97801C971DB72B46B835F4389EB7B6D4/A59C783CAD93A04F836D381EDB90B11D/2F7602F8C29D6DEC777E93093C93D2A8",
+        "size": 3
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/97801C971DB72B46B835F4389EB7B6D4/A59C783CAD93A04F836D381EDB90B11D/5350719BCF7164E66507E44A5F120968",
+        "size": 3
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/97801C971DB72B46B835F4389EB7B6D4/A59C783CAD93A04F836D381EDB90B11D/7D2049E1C97DFA1825A932C1AF463AD4",
+        "size": 3
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/97801C971DB72B46B835F4389EB7B6D4/A59C783CAD93A04F836D381EDB90B11D/A1DC61528FF8CE3EED33A4EF90686471",
+        "size": 3
+      },
+      {
+        "filename": "k/.vs/CopilotSnapshots/97801C971DB72B46B835F4389EB7B6D4/EA1BC5A8B6793E40B4DC6FBCFE55FA60/",
+        "size": 0
+      }
+    ]
+  },
+  {
+    "file": "PERFECT.zip",
+    "sha256": "0c4eff62974c7556fac297672fe9439cc5b25feb2748cbdf5c9797e9d6fe53c0",
+    "bytes": 2267304,
+    "entries_sample": [
+      {
+        "filename": "PERFECT/",
+        "size": 0
+      },
+      {
+        "filename": "PERFECT/.vs/",
+        "size": 0
+      },
+      {
+        "filename": "PERFECT/.vs/CopilotSnapshots/",
+        "size": 0
+      },
+      {
+        "filename": "PERFECT/.vs/CopilotSnapshots/A54F12EB97C2E64F931FDA3884F974E3/",
+        "size": 0
+      },
+      {
+        "filename": "PERFECT/.vs/CopilotSnapshots/A54F12EB97C2E64F931FDA3884F974E3/29B52576EC413C43B9B628A984BC4763/",
+        "size": 0
+      },
+      {
+        "filename": "PERFECT/.vs/CopilotSnapshots/A54F12EB97C2E64F931FDA3884F974E3/29B52576EC413C43B9B628A984BC4763/1903045DE26BEE0FD4EA6400F55DB105",
+        "size": 740
+      },
+      {
+        "filename": "PERFECT/.vs/CopilotSnapshots/A54F12EB97C2E64F931FDA3884F974E3/29B52576EC413C43B9B628A984BC4763/32A241EC3340163FC7DADE5E5C1ACFB4",
+        "size": 740
+      },
+      {
+        "filename": "PERFECT/.vs/CopilotSnapshots/A54F12EB97C2E64F931FDA3884F974E3/29B52576EC413C43B9B628A984BC4763/CDF48475160DF07AD68FE126E2E77007",
+        "size": 763
+      },
+      {
+        "filename": "PERFECT/.vs/CopilotSnapshots/A54F12EB97C2E64F931FDA3884F974E3/state.mpack",
+        "size": 2213
+      },
+      {
+        "filename": "PERFECT/.vs/WootMouseRemap/",
+        "size": 0
+      },
+      {
+        "filename": "PERFECT/.vs/WootMouseRemap/copilot-chat/",
+        "size": 0
+      },
+      {
+        "filename": "PERFECT/.vs/WootMouseRemap/copilot-chat/18d1ded0/",
+        "size": 0
+      },
+      {
+        "filename": "PERFECT/.vs/WootMouseRemap/copilot-chat/18d1ded0/sessions/",
+        "size": 0
+      },
+      {
+        "filename": "PERFECT/.vs/WootMouseRemap/copilot-chat/18d1ded0/sessions/de02f326-0e5a-4629-928d-2a36d3f9ecbc",
+        "size": 8833
+      },
+      {
+        "filename": "PERFECT/.vs/WootMouseRemap/copilot-chat/18d1ded0/sessions/eb124fa5-c297-4fe6-931f-da3884f974e3",
+        "size": 219410
+      },
+      {
+        "filename": "PERFECT/.vs/WootMouseRemap/CopilotIndices/",
+        "size": 0
+      },
+      {
+        "filename": "PERFECT/.vs/WootMouseRemap/CopilotIndices/17.14.995.13737/",
+        "size": 0
+      },
+      {
+        "filename": "PERFECT/.vs/WootMouseRemap/CopilotIndices/17.14.995.13737/CodeChunks.db",
+        "size": 385024
+      },
+      {
+        "filename": "PERFECT/.vs/WootMouseRemap/CopilotIndices/17.14.995.13737/SemanticSymbols.db",
+        "size": 319488
+      },
+      {
+        "filename": "PERFECT/.vs/WootMouseRemap/DesignTimeBuild/",
+        "size": 0
+      }
+    ]
+  }
+]

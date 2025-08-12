@@ -1,0 +1,87 @@
+{
+  "title": "Agent Report",
+  "type": "object",
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "component": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "object",
+      "properties": {
+        "consulted": {
+          "type": "boolean"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "consulted"
+      ]
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path"
+        ]
+      }
+    },
+    "wiring": {
+      "type": "object",
+      "properties": {
+        "how_to_hook": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "how_to_hook"
+      ]
+    },
+    "results": {
+      "type": "object",
+      "properties": {
+        "perf_ms": {
+          "type": "number"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "task_id",
+    "title",
+    "version",
+    "component",
+    "reference",
+    "files",
+    "wiring",
+    "results"
+  ]
+}

@@ -1,0 +1,26 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=%ManufacturerName%
+CatalogFile=GcBus.cat
+DriverVer=01/01/2025,1.0.0.0
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+%DeviceName%=Install, Root\GcBus
+
+[Install]
+CopyFiles=DriverCopy
+
+[DriverCopy]
+GcBus.sys
+
+[DestinationDirs]
+DriverCopy=12
+
+[Strings]
+ManufacturerName="Gaym Controller"
+DeviceName="GC Virtual Bus"

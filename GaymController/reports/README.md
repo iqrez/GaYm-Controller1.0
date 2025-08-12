@@ -1,0 +1,3 @@
+- Copy TEMPLATE.md to `GC-<ID>.md` and fill it.
+- Create `GC-<ID>.json` matching `schema.json`.
+- Run `python tools/aggregate_reports.py` to regenerate WIRING_GUIDE.md.

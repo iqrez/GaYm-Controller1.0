@@ -1,0 +1,28 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=HIDClass
+ClassGuid={745A17A0-74D3-11D0-B6FE-00A0C90F57DA}
+Provider=%ManufacturerName%
+CatalogFile=GcFilter.cat
+DriverVer=01/01/2025,1.0.0.0
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+%DeviceNames%=GcFilter_Inst, HID_DEVICE_SYSTEM_GAME
+%DeviceNames%=GcFilter_Inst, HID_DEVICE_SYSTEM_KEYBOARD
+%DeviceNames%=GcFilter_Inst, HID_DEVICE_SYSTEM_MOUSE
+
+[GcFilter_Inst.NTamd64]
+CopyFiles=DriverCopy
+
+[DriverCopy]
+GcFilter.sys
+
+[DestinationDirs]
+DriverCopy=12
+
+[Strings]
+ManufacturerName="Gaym Controller"
+DeviceNames="*"

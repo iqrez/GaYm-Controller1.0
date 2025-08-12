@@ -4,15 +4,19 @@
   "version": "0.1",
   "component": "legacy",
   "reference": {
-    "consulted": false,
-    "files": [],
-    "notes": ""
+    "consulted": true,
+    "files": ["docs/LEGACY_AIM_PORTING.md"],
+    "notes": "Guided the porting of legacy aim math."
   },
-  "files": [],
+  "files": [
+    "plugins/LegacyMouseAim.Legacy/LegacyMouseAim.Legacy.csproj",
+    "plugins/LegacyMouseAim.Legacy/LegacyMouseAim.cs",
+    "tools/LegacyAimHarness/compare_traces.py"
+  ],
   "wiring": {
-    "how_to_hook": ""
+    "how_to_hook": "Build plugin and run `python tools/LegacyAimHarness/compare_traces.py <golden.csv> <replay.csv>`."
   },
   "results": {
-    "notes": ""
+    "notes": "Sample data compared within tolerance using included harness."
   }
 }

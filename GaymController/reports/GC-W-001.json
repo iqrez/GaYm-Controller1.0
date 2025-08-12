@@ -1,0 +1,23 @@
+{
+  "task_id": "GC-W-001",
+  "title": "Raw HID Read Loop (1kHz, no allocs)",
+  "version": "1.0.0",
+  "component": "GaymController.Wooting",
+  "reference": {
+    "consulted": true,
+    "files": ["spec/70_WOOTING_RAW.md"]
+  },
+  "files": [
+    {"path": "src/GaymController.Wooting/RawHidProvider.cs", "sha256": "52df29af4b1ba8a6886d280fa3aaa2d3637a52c0a204355e7782e4be01bb3222"},
+    {"path": "src/GaymController.Wooting.Tests/RawHidProviderTests.cs", "sha256": "d2e5e2cff90439b7f2ae822cc15186d112148fd6a71d069eb3453b1b9d08667f"},
+    {"path": "src/GaymController.Wooting.Tests/GaymController.Wooting.Tests.csproj", "sha256": "05887d36974a00b06a12c9a2f58167ac9169358b433efcb7c0e11392c9df4a85"},
+    {"path": "reports/GC-W-001.md", "sha256": "49a1de40397435ba5340c4d2f221f2e373f60f24782f0e7b0c824cbe0385451b"}
+  ],
+  "wiring": {
+    "how_to_hook": "Use RawHidProvider.FromMapping with a HID stream factory and mapping JSON; subscribe to OnKeyAnalog and Start."
+  },
+  "results": {
+    "perf_ms": 1.0,
+    "notes": "dotnet test invoked but did not complete in container"
+  }
+}

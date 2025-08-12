@@ -1,0 +1,98 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>WootMouseRemap</AssemblyName>
+    <RootNamespace>WootMouseRemap</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    
+    <!-- Application Information -->
+    <AssemblyTitle>WootMouseRemap</AssemblyTitle>
+    <AssemblyDescription>Advanced mouse-to-controller input remapping tool</AssemblyDescription>
+    <AssemblyCompany>WootMouseRemap Project</AssemblyCompany>
+    <AssemblyProduct>WootMouseRemap</AssemblyProduct>
+    <AssemblyCopyright>Copyright © 2024</AssemblyCopyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <InformationalVersion>1.0.0</InformationalVersion>
+    
+    <!-- Build Configuration -->
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <WarningsNotAsErrors />
+    <NoWarn>CS0169;CS0414;CS0649</NoWarn>
+    
+    <!-- Performance Optimizations -->
+    <Optimize>true</Optimize>
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    
+    <!-- Publishing Options -->
+    <PublishSingleFile>false</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <PublishTrimmed>false</PublishTrimmed>
+    
+    <!-- Code Analysis -->
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <!-- Package References -->
+  <ItemGroup>
+    <PackageReference Include="Nefarius.ViGEm.Client" Version="1.21.256" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+    <!-- Enable DirectInput enumeration -->
+    <PackageReference Include="SharpDX.DirectInput" Version="4.2.0" />
+  </ItemGroup>
+
+  <!-- Exclude legacy form from compilation (kept in repo for reference) -->
+  <ItemGroup>
+    <Compile Remove="OverlayForm.cs" />
+    <None Include="OverlayForm.cs" />
+  </ItemGroup>
+
+  <!-- Include additional files in output -->
+  <ItemGroup>
+    <None Update="README_FIX9.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <!-- Create directories on build -->
+  <Target Name="CreateDirectories" BeforeTargets="Build">
+    <MakeDir Directories="$(OutputPath)Logs" />
+    <MakeDir Directories="$(OutputPath)Profiles" />
+    <MakeDir Directories="$(OutputPath)Config" />
+    <MakeDir Directories="$(OutputPath)Backups" />
+  </Target>
+
+  <!-- Development-only packages -->
+  <ItemGroup Condition="'$(Configuration)' == 'Debug'">
+    <!-- Add development tools here if needed -->
+  </ItemGroup>
+
+  <!-- Release optimizations -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <!-- Ensure DIRECTINPUT is defined in Release builds -->
+    <DefineConstants>TRACE;DIRECTINPUT</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Debug configuration -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <DefineConstants>DEBUG;TRACE;DIRECTINPUT</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+</Project>

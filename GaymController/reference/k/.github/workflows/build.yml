@@ -1,0 +1,47 @@
+
+name: build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    env:
+      Configuration: Debug
+      Platform: x64
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Install WiX (optional)
+        run: choco install wixtoolset -y
+
+      - name: Restore .NET
+        run: dotnet restore
+
+      - name: Build broker & CLI (Debug)
+        run: |
+          dotnet build src/service/VPadBroker -c Debug
+          dotnet build src/client/VPadCtl -c Debug
+
+      - name: Run unit tests (fake backend)
+        run: dotnet test tests/VPadBroker.Tests -c Debug
+
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-debug
+          path: |
+            src/service/VPadBroker/bin/Debug
+            src/client/VPadCtl/bin/Debug

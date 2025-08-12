@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>902AEEBC-5565-4107-93E9-7A77CF45B298</ProjectGuid>
+    <OutputName>InHouse-VirtualPad</OutputName>
+    <OutputType>Package</OutputType>
+  </PropertyGroup>
+
+  <!-- Configuration-specific properties -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <IntermediateOutputPath>obj\x64\Debug\</IntermediateOutputPath>
+    <DefineConstants>Debug</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <IntermediateOutputPath>obj\x64\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Product.wxs" />
+  </ItemGroup>
+
+  
+
+  <PropertyGroup>
+    <DriversSourceDir>..\\..\\drivers</DriversSourceDir>
+    <HarvestedDir>obj\\$(Platform)\\$(Configuration)\\</HarvestedDir>
+    <HarvestedDriversWxs>$(HarvestedDir)Drivers.wxs</HarvestedDriversWxs>
+  </PropertyGroup>
+
+  
+
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);DriversRoot=$(DriversSourceDir)</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <WixExtension Include="WixUIExtension" />
+  </ItemGroup>
+
+  <Target Name="BeforeCompile">
+    <!-- Only harvest if the drivers directory exists -->
+    <Message Text="Harvesting drivers from $(DriversSourceDir)..." Importance="High" Condition="Exists('$(DriversSourceDir)')" />
+    <Exec Condition="Exists('$(DriversSourceDir)')"
+          Command="&quot;C:\\Program Files (x86)\\WiX Toolset v3.14\\bin\\heat.exe&quot; dir &quot;$(DriversSourceDir)&quot; -cg DriversGroup -dr DRIVERS -gg -srd -sreg -var var.DriversRoot -out &quot;$(HarvestedDriversWxs)&quot;" />
+    <!-- If directory doesn't exist, generate an empty group to keep Light happy -->
+    <WriteLinesToFile Condition="!Exists('$(DriversSourceDir)')" File="$(HarvestedDriversWxs)"
+                      Lines="&lt;?xml version=&quot;1.0&quot;?&gt;&#10;&lt;Wix xmlns=&quot;http://schemas.microsoft.com/wix/2006/wi&quot;&gt;&#10;  &lt;Fragment&gt;&#10;    &lt;ComponentGroup Id=&quot;DriversGroup&quot; /&gt;&#10;  &lt;/Fragment&gt;&#10;&lt;/Wix&gt;" />
+    <ItemGroup>
+      <Compile Include="$(HarvestedDriversWxs)" />
+    </ItemGroup>
+  </Target>
+
+  <Import Project="C:\Program Files (x86)\MSBuild\Microsoft\WiX\v3.x\wix.targets" />
+
+  <!-- Provide Rebuild to satisfy solution-level Rebuild; WiX targets already define Build -->
+  <Target Name="Rebuild" DependsOnTargets="Build" />
+</Project>

@@ -1,0 +1,9 @@
+
+<Project>
+  <PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
+    <Company>YourCompany</Company>
+    <Product>InHouse Virtual Pad</Product>
+  </PropertyGroup>
+</Project>

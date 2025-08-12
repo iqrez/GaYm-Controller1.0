@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Launch (Debug) - WootMouseRemap",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/Debug/net8.0-windows/WootMouseRemap.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "preLaunchTask": "build"
+    },
+    {
+      "name": ".NET Launch (Release) - WootMouseRemap",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/Release/net8.0-windows/WootMouseRemap.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "preLaunchTask": "build:release"
+    },
+    {
+      "name": ".NET Attach",
+      "type": "coreclr",
+      "request": "attach"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/IQRez.YUI/Downloads/PERFECT_with_ControllerCloak_20250810_223750/PERFECT",
+      "program": "c:/Users/IQRez.YUI/Downloads/PERFECT_with_ControllerCloak_20250810_223750/PERFECT/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

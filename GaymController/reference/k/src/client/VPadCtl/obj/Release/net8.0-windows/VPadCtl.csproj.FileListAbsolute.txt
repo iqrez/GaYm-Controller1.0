@@ -1,0 +1,14 @@
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\bin\Release\net8.0-windows\VPadCtl.exe
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\bin\Release\net8.0-windows\VPadCtl.deps.json
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\bin\Release\net8.0-windows\VPadCtl.runtimeconfig.json
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\bin\Release\net8.0-windows\VPadCtl.dll
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\bin\Release\net8.0-windows\VPadCtl.pdb
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\obj\Release\net8.0-windows\VPadCtl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\obj\Release\net8.0-windows\VPadCtl.AssemblyInfoInputs.cache
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\obj\Release\net8.0-windows\VPadCtl.AssemblyInfo.cs
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\obj\Release\net8.0-windows\VPadCtl.csproj.CoreCompileInputs.cache
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\obj\Release\net8.0-windows\VPadCtl.dll
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\obj\Release\net8.0-windows\refint\VPadCtl.dll
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\obj\Release\net8.0-windows\VPadCtl.pdb
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\obj\Release\net8.0-windows\VPadCtl.genruntimeconfig.cache
+C:\Users\IQRez.YUI\Downloads\VPad_installer_harvest_fix3\k\src\client\VPadCtl\obj\Release\net8.0-windows\ref\VPadCtl.dll

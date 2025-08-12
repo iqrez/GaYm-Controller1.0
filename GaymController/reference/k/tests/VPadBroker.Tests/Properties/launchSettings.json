@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "VPadBroker.Tests": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

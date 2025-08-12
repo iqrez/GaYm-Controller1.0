@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "build",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"${workspaceFolder}/WootMouseRemap.csproj"
+			],
+			"group": "build",
+			"problemMatcher": [
+				"$msCompile"
+			]
+		},
+		{
+			"type": "shell",
+			"label": "build:release",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"-c",
+				"Release",
+				"${workspaceFolder}/WootMouseRemap.csproj"
+			],
+			"group": "build",
+			"problemMatcher": [
+				"$msCompile"
+			]
+		}
+	]
+}

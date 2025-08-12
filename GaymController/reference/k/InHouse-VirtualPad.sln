@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VPadBus", "src\drivers\bus\VPadBus.vcxproj", "{DC1B6F89-E39A-4B64-BC93-A164A9A62D3E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VPadFunc", "src\drivers\func\VPadFunc.vcxproj", "{D60E3D84-6E64-43FE-AAC5-12EADC65FE66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPadBroker", "src\service\VPadBroker\VPadBroker.csproj", "{66105BB5-5F93-4576-A6ED-BF571F317AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPadCtl", "src\client\VPadCtl\VPadCtl.csproj", "{41037A12-A8AF-43C4-9281-AFFE2676E081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPadWin", "src\client\VPadWin\VPadWin.csproj", "{B6F0C3A9-0000-4000-8000-000000000003}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Installer", "src\installer\msi\Installer.wixproj", "{902AEEBC-5565-4107-93E9-7A77CF45B298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPadBroker.Tests", "tests\VPadBroker.Tests\VPadBroker.Tests.csproj", "{700559EC-E6EF-4C9C-AB75-30506E67EF70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC1B6F89-E39A-4B64-BC93-A164A9A62D3E}.Debug|x64.ActiveCfg = Debug|x64
+		{DC1B6F89-E39A-4B64-BC93-A164A9A62D3E}.Debug|x64.Build.0 = Debug|x64
+		{DC1B6F89-E39A-4B64-BC93-A164A9A62D3E}.Release|x64.ActiveCfg = Release|x64
+		{DC1B6F89-E39A-4B64-BC93-A164A9A62D3E}.Release|x64.Build.0 = Release|x64
+		{D60E3D84-6E64-43FE-AAC5-12EADC65FE66}.Debug|x64.ActiveCfg = Debug|x64
+		{D60E3D84-6E64-43FE-AAC5-12EADC65FE66}.Debug|x64.Build.0 = Debug|x64
+		{D60E3D84-6E64-43FE-AAC5-12EADC65FE66}.Release|x64.ActiveCfg = Release|x64
+		{D60E3D84-6E64-43FE-AAC5-12EADC65FE66}.Release|x64.Build.0 = Release|x64
+		{66105BB5-5F93-4576-A6ED-BF571F317AD6}.Debug|x64.ActiveCfg = Debug|x64
+		{66105BB5-5F93-4576-A6ED-BF571F317AD6}.Debug|x64.Build.0 = Debug|x64
+		{66105BB5-5F93-4576-A6ED-BF571F317AD6}.Release|x64.ActiveCfg = Release|x64
+		{66105BB5-5F93-4576-A6ED-BF571F317AD6}.Release|x64.Build.0 = Release|x64
+		{41037A12-A8AF-43C4-9281-AFFE2676E081}.Debug|x64.ActiveCfg = Debug|x64
+		{41037A12-A8AF-43C4-9281-AFFE2676E081}.Debug|x64.Build.0 = Debug|x64
+		{41037A12-A8AF-43C4-9281-AFFE2676E081}.Release|x64.ActiveCfg = Release|x64
+		{41037A12-A8AF-43C4-9281-AFFE2676E081}.Release|x64.Build.0 = Release|x64
+		{B6F0C3A9-0000-4000-8000-000000000003}.Debug|x64.ActiveCfg = Debug|x64
+		{B6F0C3A9-0000-4000-8000-000000000003}.Debug|x64.Build.0 = Debug|x64
+		{B6F0C3A9-0000-4000-8000-000000000003}.Release|x64.ActiveCfg = Release|x64
+		{B6F0C3A9-0000-4000-8000-000000000003}.Release|x64.Build.0 = Release|x64
+		{902AEEBC-5565-4107-93E9-7A77CF45B298}.Debug|x64.ActiveCfg = Debug|x64
+		{902AEEBC-5565-4107-93E9-7A77CF45B298}.Debug|x64.Build.0 = Debug|x64
+		{902AEEBC-5565-4107-93E9-7A77CF45B298}.Release|x64.ActiveCfg = Release|x64
+		{902AEEBC-5565-4107-93E9-7A77CF45B298}.Release|x64.Build.0 = Release|x64
+		{700559EC-E6EF-4C9C-AB75-30506E67EF70}.Debug|x64.ActiveCfg = Debug|x64
+		{700559EC-E6EF-4C9C-AB75-30506E67EF70}.Debug|x64.Build.0 = Debug|x64
+		{700559EC-E6EF-4C9C-AB75-30506E67EF70}.Release|x64.ActiveCfg = Release|x64
+		{700559EC-E6EF-4C9C-AB75-30506E67EF70}.Release|x64.Build.0 = Release|x64
+EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D994CA19-9A03-4ED9-902E-12821E8DB285}
+	EndGlobalSection
+EndGlobal

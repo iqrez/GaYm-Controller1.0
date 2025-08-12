@@ -1,0 +1,49 @@
+{
+  "Version": "1",
+  "Name": "default",
+  "WasdToLeftStick": true,
+  "OverlayToggleVk": 220,
+  "OverlayToggleMods": 0,
+  "ModeToggleVk": 119,
+  "SuppressToggleVk": 120,
+  "StartHidden": false,
+  "OverlayLeft": -1,
+  "OverlayTop": -1,
+  "OverlayLockPosition": false,
+  "OverlaySnapEdges": true,
+  "OverlaySnapThreshold": 12,
+  "OverlayAlwaysOnTop": true,
+  "OverlayTheme": "Purple",
+  "PreferredInputBackend": "XInput",
+  "PreferredXInputIndex": 0,
+  "PreferredDirectInputInstance": "",
+  "XInputPassthrough": false,
+  "OverlayCompact": false,
+  "CurveShowGrid": true,
+  "CurveShowLivePoint": true,
+  "KeyMap": {
+    "32": 0,
+    "81": 3,
+    "69": 2
+  },
+  "MouseMap": {
+    "Left": 11,
+    "Right": 10,
+    "Middle": 15,
+    "XButton1": 8,
+    "XButton2": 9,
+    "ScrollUp": 3,
+    "ScrollDown": 1
+  },
+  "RapidFire": {},
+  "Curves": {
+    "Sensitivity": 0.35,
+    "Expo": 0.6,
+    "AntiDeadzone": 0.05,
+    "EmaAlpha": 0.35,
+    "VelocityGain": 0,
+    "JitterFloor": 0,
+    "ScaleX": 1,
+    "ScaleY": 1
+  }
+}

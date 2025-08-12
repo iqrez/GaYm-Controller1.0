@@ -1,0 +1,220 @@
+﻿2025-08-12 04:25:48.095 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 04:25:48.096 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 04:25:48.097 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 04:25:48.097 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 04:25:48.125 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 04:25:48.137 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 04:25:48.138 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 04:25:48.323 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 04:25:48.579 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 04:25:48.627 [INFO] [OverlayForm_Clean.OverlayForm_Load:812] OverlayForm loaded
+2025-08-12 04:25:53.566 [INFO] [OverlayForm_Clean.EnumerateControllers:692] Controllers changed: XInput 0 [Connected], XInput 1 [Connected], XInput 2 [None], XInput 3 [None]
+2025-08-12 04:27:27.007 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 04:27:27.007 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 04:27:27.008 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 04:27:27.008 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 04:27:27.023 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 04:27:27.032 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 04:27:27.033 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 04:27:27.062 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 04:27:27.326 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 04:27:27.348 [INFO] [OverlayForm_Clean.OverlayForm_Load:812] OverlayForm loaded
+2025-08-12 04:27:32.318 [INFO] [OverlayForm_Clean.EnumerateControllers:692] Controllers changed: XInput 0 [Connected], XInput 1 [Connected], XInput 2 [None], XInput 3 [None]
+2025-08-12 06:19:05.572 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 06:19:05.573 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 06:19:05.573 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 06:19:05.574 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 06:19:05.587 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 06:19:05.596 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 06:19:05.597 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 06:19:05.631 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 06:19:05.815 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 06:19:05.851 [INFO] [OverlayForm_Clean.OverlayForm_Load:809] OverlayForm loaded
+2025-08-12 06:19:10.820 [INFO] [OverlayForm_Clean.EnumerateControllers:689] Controllers changed: XInput 0 [Connected], XInput 1 [None], XInput 2 [None], XInput 3 [None]
+2025-08-12 06:19:34.549 [INFO] [Program.Cleanup:155] Performing cleanup...
+2025-08-12 06:19:34.555 [INFO] [Program.Cleanup:163] Cleanup completed
+2025-08-12 06:19:34.569 [INFO] [Program.Main:81] === WootMouseRemap Shutting Down ===
+2025-08-12 06:25:47.787 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 06:25:47.788 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 06:25:47.788 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 06:25:47.788 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 06:25:47.804 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 06:25:47.813 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 06:25:47.814 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 06:25:47.848 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 06:25:48.041 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 06:25:48.068 [INFO] [OverlayForm_Clean.OverlayForm_Load:809] OverlayForm loaded
+2025-08-12 06:25:53.037 [INFO] [OverlayForm_Clean.EnumerateControllers:689] Controllers changed: XInput 0 [Connected], XInput 1 [None], XInput 2 [None], XInput 3 [None]
+2025-08-12 06:26:18.897 [INFO] [OverlayForm_Clean.EnumerateControllers:689] Controllers changed: XInput 0 [Connected], XInput 1 [Connected], XInput 2 [None], XInput 3 [None]
+2025-08-12 06:26:40.512 [INFO] [Program.Cleanup:155] Performing cleanup...
+2025-08-12 06:26:40.520 [INFO] [Program.Cleanup:163] Cleanup completed
+2025-08-12 06:26:40.529 [INFO] [Program.Main:81] === WootMouseRemap Shutting Down ===
+2025-08-12 06:26:52.984 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 06:26:52.984 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 06:26:52.985 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 06:26:52.985 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 06:26:52.999 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 06:26:53.006 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 06:26:53.007 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 06:26:53.040 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 06:26:53.212 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 06:26:53.236 [INFO] [OverlayForm_Clean.OverlayForm_Load:809] OverlayForm loaded
+2025-08-12 06:26:58.207 [INFO] [OverlayForm_Clean.EnumerateControllers:689] Controllers changed: XInput 0 [Connected], XInput 1 [Connected], XInput 2 [None], XInput 3 [None]
+2025-08-12 06:28:31.506 [INFO] [Program.Cleanup:155] Performing cleanup...
+2025-08-12 06:28:31.516 [INFO] [Program.Cleanup:163] Cleanup completed
+2025-08-12 06:28:31.524 [INFO] [Program.Main:81] === WootMouseRemap Shutting Down ===
+2025-08-12 06:39:01.413 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 06:39:01.414 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 06:39:01.414 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 06:39:01.414 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 06:39:01.429 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 06:39:01.438 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 06:39:01.439 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 06:39:01.470 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 06:39:01.664 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 06:39:01.688 [INFO] [OverlayForm_Clean.OverlayForm_Load:809] OverlayForm loaded
+2025-08-12 06:39:06.662 [INFO] [OverlayForm_Clean.EnumerateControllers:689] Controllers changed: XInput 0 [Connected], XInput 1 [Connected], XInput 2 [None], XInput 3 [None]
+2025-08-12 06:39:58.814 [INFO] [OverlayForm_Clean.EnumerateControllers:689] Controllers changed: XInput 0 [Connected], XInput 1 [None], XInput 2 [None], XInput 3 [None]
+2025-08-12 06:40:03.147 [INFO] [Program.Cleanup:155] Performing cleanup...
+2025-08-12 06:40:03.155 [INFO] [Program.Cleanup:163] Cleanup completed
+2025-08-12 06:40:03.165 [INFO] [Program.Main:81] === WootMouseRemap Shutting Down ===
+2025-08-12 07:10:17.860 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 07:10:17.861 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 07:10:17.861 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 07:10:17.862 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 07:10:17.898 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 07:10:17.912 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 07:10:17.914 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 07:10:17.988 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 07:10:18.599 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 07:10:18.762 [INFO] [OverlayForm_Clean.OverlayForm_Load:872] OverlayForm loaded
+2025-08-12 07:10:40.607 [INFO] [OverlayForm_Clean.EnumerateControllers:751] Controllers changed: XInput 0 [Connected], XInput 1 [Connected], XInput 2 [None], XInput 3 [None], Controller (XBOX 360 For Windows) (f4198ca0-5956-11f0-8001-444553540000), Controller (Xbox One For Windows) (566c1160-593f-11f0-8002-444553540000)
+2025-08-12 07:11:48.580 [INFO] [Program.Cleanup:155] Performing cleanup...
+2025-08-12 07:11:48.591 [INFO] [Program.Cleanup:163] Cleanup completed
+2025-08-12 07:11:48.600 [INFO] [Program.Main:81] === WootMouseRemap Shutting Down ===
+2025-08-12 07:18:31.754 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 07:18:31.755 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 07:18:31.756 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 07:18:31.756 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 07:18:31.772 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 07:18:31.780 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 07:18:31.781 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 07:18:31.815 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 07:18:32.108 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 07:18:32.135 [INFO] [OverlayForm_Clean.OverlayForm_Load:872] OverlayForm loaded
+2025-08-12 07:18:47.134 [INFO] [OverlayForm_Clean.AutoSelectXInputIndexIfAvailable:778] Auto-selected XInput index P0
+2025-08-12 07:22:42.133 [INFO] [OverlayForm_Clean.AutoSelectXInputIndexIfAvailable:778] Auto-selected XInput index P0
+2025-08-12 07:25:40.789 [INFO] [Program.Cleanup:155] Performing cleanup...
+2025-08-12 07:25:40.796 [INFO] [Program.Cleanup:163] Cleanup completed
+2025-08-12 07:25:40.812 [INFO] [Program.Main:81] === WootMouseRemap Shutting Down ===
+2025-08-12 07:35:45.866 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 07:35:45.867 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 07:35:45.868 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 07:35:45.868 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 07:35:45.902 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 07:35:45.915 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 07:35:45.917 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 07:35:45.988 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 07:35:46.405 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 07:35:46.437 [INFO] [OverlayForm_Clean.OverlayForm_Load:877] OverlayForm loaded
+2025-08-12 07:37:21.424 [INFO] [OverlayForm_Clean.AutoSelectXInputIndexIfAvailable:782] Auto-selected XInput index P0
+2025-08-12 07:37:43.530 [INFO] [Program.Cleanup:155] Performing cleanup...
+2025-08-12 07:37:43.539 [INFO] [Program.Cleanup:163] Cleanup completed
+2025-08-12 07:37:43.554 [INFO] [Program.Main:81] === WootMouseRemap Shutting Down ===
+2025-08-12 07:41:18.215 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 07:41:18.216 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 07:41:18.216 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 07:41:18.217 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 07:41:18.235 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 07:41:18.245 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 07:41:18.247 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 07:41:18.281 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 07:41:18.666 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 07:41:18.774 [INFO] [OverlayForm_Clean.OverlayForm_Load:877] OverlayForm loaded
+2025-08-12 07:41:24.505 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:41:32.747 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 07:41:42.624 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:41:44.905 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 07:41:49.746 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:42:33.692 [INFO] [OverlayForm_Clean.AutoSelectXInputIndexIfAvailable:782] Auto-selected XInput index P0
+2025-08-12 07:42:35.427 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:42:37.025 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 07:42:40.703 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:42:43.286 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 07:42:47.228 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:42:49.855 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 07:42:53.633 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:43:02.698 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 07:43:07.707 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:43:09.054 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 07:43:10.079 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:43:12.474 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 07:43:47.539 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:43:48.693 [INFO] [OverlayForm_Clean.AutoSelectXInputIndexIfAvailable:782] Auto-selected XInput index P0
+2025-08-12 07:43:50.630 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:43:52.401 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 07:43:59.228 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:44:01.904 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 07:44:06.634 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:44:12.012 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 07:44:13.925 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 07:44:56.331 [INFO] [Program.Cleanup:155] Performing cleanup...
+2025-08-12 07:44:56.338 [INFO] [Program.Cleanup:163] Cleanup completed
+2025-08-12 07:44:56.358 [INFO] [Program.Main:81] === WootMouseRemap Shutting Down ===
+2025-08-12 08:13:21.500 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 08:13:21.501 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 08:13:21.502 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 08:13:21.502 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 08:13:21.549 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 08:13:21.568 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 08:13:21.570 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 08:13:21.637 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 08:13:22.074 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 08:13:22.133 [INFO] [OverlayForm_Clean.OverlayForm_Load:877] OverlayForm loaded
+2025-08-12 08:13:23.561 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 08:13:28.314 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 08:13:30.476 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 08:13:33.000 [INFO] [Program.Cleanup:155] Performing cleanup...
+2025-08-12 08:13:33.011 [INFO] [Program.Cleanup:163] Cleanup completed
+2025-08-12 08:13:33.029 [INFO] [Program.Main:81] === WootMouseRemap Shutting Down ===
+2025-08-12 08:34:24.403 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 08:34:24.404 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 08:34:24.405 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 08:34:24.405 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 08:34:24.436 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 08:34:24.449 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 08:34:24.450 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 08:34:24.496 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 08:34:24.818 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 08:34:24.850 [INFO] [OverlayForm_Clean.OverlayForm_Load:877] OverlayForm loaded
+2025-08-12 08:34:26.675 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 08:34:32.165 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 08:34:33.865 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 08:34:35.773 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 08:34:37.446 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 08:34:39.295 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 08:34:46.758 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 08:34:51.704 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 08:34:53.970 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 08:34:56.601 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 08:34:59.410 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 08:35:01.598 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 08:35:11.061 [INFO] [Program.Cleanup:155] Performing cleanup...
+2025-08-12 08:35:11.072 [INFO] [Program.Cleanup:163] Cleanup completed
+2025-08-12 08:35:11.082 [INFO] [Program.Main:81] === WootMouseRemap Shutting Down ===
+2025-08-12 16:44:29.325 [INFO] [Program.Main:33] === WootMouseRemap Starting ===
+2025-08-12 16:44:29.326 [INFO] [Program.Main:34] Version: 1.0.0.0
+2025-08-12 16:44:29.326 [INFO] [Program.Main:35] OS: Microsoft Windows NT 10.0.26100.0
+2025-08-12 16:44:29.327 [INFO] [Program.Main:36] .NET: 8.0.19
+2025-08-12 16:44:29.356 [INFO] [Program.Main:53] Initializing core components...
+2025-08-12 16:44:29.367 [INFO] [Program.Main:58] Installing low-level hooks...
+2025-08-12 16:44:29.368 [INFO] [Program.Main:62] Connecting virtual controller...
+2025-08-12 16:44:29.526 [INFO] [Program.Main:69] Starting main application form...
+2025-08-12 16:44:30.066 [INFO] [Program.Main:72] Application started successfully
+2025-08-12 16:44:30.184 [INFO] [OverlayForm_Clean.OverlayForm_Load:877] OverlayForm loaded
+2025-08-12 16:44:31.911 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 17:16:04.140 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 17:16:31.694 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 17:21:23.823 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1
+2025-08-12 17:39:28.623 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P2
+2025-08-12 18:17:07.121 [INFO] [OverlayForm_Clean.OnAppModeChanged:1042] Switched passthrough to next active pad: P1

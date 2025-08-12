@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="InHouse Virtual Pad" Language="1033" Version="1.3.0" Manufacturer="InHouse" UpgradeCode="3F812D85-9E63-4C17-9B42-85A2D2F3E3AE">
+    <Package InstallerVersion="500" Compressed="yes" InstallScope="perMachine" Platform="x64" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+    <Feature Id="MainFeature" Title="InHouse Virtual Pad" Level="1">
+      <ComponentRef Id="VPadWinExe" />
+      <ComponentRef Id="VPadCtlExe" />
+      <ComponentRef Id="BrokerExe" />
+      <ComponentRef Id="BrokerService" />
+      <ComponentRef Id="DriversFolder" />
+    </Feature>
+
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+    <UIRef Id="WixUI_InstallDir" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="INSTALLDIR_ROOT" Name="InHouse">
+          <Directory Id="INSTALLFOLDER" Name="VirtualPad">
+            <Directory Id="BIN" Name="bin" />
+            <Directory Id="DRIVERS" Name="drivers" />
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="BIN">
+      <Component Id="VPadWinExe" Guid="*" Win64="yes">
+        <File Id="VPadWinFile" Source="..\..\client\VPadWin\bin\x64\Release\net8.0-windows\VPadWin.exe" KeyPath="yes" />
+      </Component>
+      <Component Id="VPadCtlExe" Guid="*" Win64="yes">
+        <File Id="VPadCtlFile" Source="..\..\client\VPadCtl\bin\x64\Release\net8.0-windows\VPadCtl.exe" KeyPath="yes" />
+      </Component>
+      <Component Id="BrokerExe" Guid="*" Win64="yes">
+        <File Id="BrokerFile" Source="..\..\service\VPadBroker\bin\x64\Release\net8.0-windows\VPadBroker.exe" KeyPath="yes" />
+      </Component>
+      <Component Id="BrokerService" Guid="*" Win64="yes">
+        <ServiceInstall Id="VPadBrokerServiceInstall"
+                        Name="VPadBroker"
+                        DisplayName="InHouse Virtual Pad Broker"
+                        Description="Virtual gamepad broker service"
+                        Start="auto"
+                        Type="ownProcess"
+                        ErrorControl="normal"
+                        Vital="yes" />
+        <ServiceControl Id="VPadBrokerServiceControl"
+                        Name="VPadBroker"
+                        Start="install"
+                        Stop="both"
+                        Remove="uninstall"
+                        Wait="yes" />
+        <!-- Reuse the same executable file as the service binary -->
+        <File Id="BrokerSvcFile" Source="..\..\service\VPadBroker\bin\x64\Release\net8.0-windows\VPadBroker.exe" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <Fragment><ComponentGroupRef Id="DriversGroup" /></Fragment>
+  </Product>
+</Wix>

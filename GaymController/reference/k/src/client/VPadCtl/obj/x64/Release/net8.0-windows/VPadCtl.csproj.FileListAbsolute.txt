@@ -1,0 +1,14 @@
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\bin\x64\Release\net8.0-windows\VPadCtl.exe
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\bin\x64\Release\net8.0-windows\VPadCtl.deps.json
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\bin\x64\Release\net8.0-windows\VPadCtl.runtimeconfig.json
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\bin\x64\Release\net8.0-windows\VPadCtl.dll
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\bin\x64\Release\net8.0-windows\VPadCtl.pdb
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\obj\x64\Release\net8.0-windows\VPadCtl.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\obj\x64\Release\net8.0-windows\VPadCtl.AssemblyInfoInputs.cache
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\obj\x64\Release\net8.0-windows\VPadCtl.AssemblyInfo.cs
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\obj\x64\Release\net8.0-windows\VPadCtl.csproj.CoreCompileInputs.cache
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\obj\x64\Release\net8.0-windows\VPadCtl.dll
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\obj\x64\Release\net8.0-windows\refint\VPadCtl.dll
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\obj\x64\Release\net8.0-windows\VPadCtl.pdb
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\obj\x64\Release\net8.0-windows\VPadCtl.genruntimeconfig.cache
+c:\Users\IQRez.YUI\Downloads\InHouse-VirtualPad_Repo_M0_FIX_20250811_212337\src\client\VPadCtl\obj\x64\Release\net8.0-windows\ref\VPadCtl.dll

@@ -1,0 +1,51 @@
+{
+  "logging": {
+    "minLevel": "Info",
+    "enableDebugLogging": false,
+    "logToEventLog": true,
+    "maxLogFileSizeMB": 5,
+    "maxBackupFiles": 10
+  },
+  "ui": {
+    "alwaysOnTop": true,
+    "startMinimized": false,
+    "minimizeToTray": true,
+    "showTrayNotifications": true,
+    "compactMode": false,
+    "lockPosition": false,
+    "edgeSnapping": true,
+    "edgeSnapThreshold": 12,
+    "theme": "Dark",
+    "accentColor": "#8A2BE2",
+    "opacity": 1,
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "windowX": -1,
+    "windowY": -1
+  },
+  "input": {
+    "enableMousePassthrough": true,
+    "enableKeyboardPassthrough": true,
+    "mouseSensitivity": 100,
+    "invertMouseY": false,
+    "deadZone": 10,
+    "enableSmoothing": true,
+    "smoothingFactor": 0.8,
+    "noMotionTimeoutMs": 18
+  },
+  "performance": {
+    "uiUpdateIntervalMs": 50,
+    "inputPollingIntervalMs": 1,
+    "enableMultithreading": true,
+    "maxConcurrentOperations": 4,
+    "enablePerformanceCounters": false
+  },
+  "features": {
+    "enableTelemetry": false,
+    "enableAutoUpdates": false,
+    "enableExperimentalFeatures": false,
+    "enableAdvancedDiagnostics": false,
+    "enableProfileBackups": true,
+    "enableCrashReporting": true
+  }
+}

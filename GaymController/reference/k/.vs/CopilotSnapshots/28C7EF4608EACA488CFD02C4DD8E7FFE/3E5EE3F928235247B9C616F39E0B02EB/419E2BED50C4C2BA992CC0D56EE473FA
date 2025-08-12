@@ -1,0 +1,8 @@
+﻿<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+      <Product ...>
+        <!-- Valid children here -->
+      </Product>
+      <Fragment>
+        <!-- Fragment content here -->
+      </Fragment>
+    </Wix>

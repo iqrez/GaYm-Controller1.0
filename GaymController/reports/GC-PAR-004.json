@@ -1,0 +1,25 @@
+{
+  "task_id": "GC-PAR-004",
+  "title": "Mapping Graph Kernel Skeleton",
+  "version": "0.1",
+  "component": "parallel",
+  "reference": {
+    "consulted": true,
+    "files": ["reference/PERFECT/Mapping/InputRouter.cs"],
+    "notes": "Reviewed routing behaviour."
+  },
+  "files": [
+    {"path": "interfaces/MappingGraphKernel.cs", "sha256": "730576e18bfa877b044affd221eea41640d3f224b60d1845e18d26086e1a6d36"},
+    {"path": "mocks/MappingGraphKernel/MappingGraphKernel.cs", "sha256": "3ac67243d446904de2bebf1017b1a43b33c5e08a4f14bffced897513b5111622"},
+    {"path": "mocks/MappingGraphKernel/MappingGraphKernel.csproj", "sha256": "1b0e505e3cc6ab5e021ecbb3c470a1169528cdc2a6e2dd63b6ff3f859ec0d0d7"},
+    {"path": "mocks/MappingGraphKernel.Tests/MappingGraphKernel.Tests.csproj", "sha256": "9272ab274b37018ee2496d78568f8682723d840c8e6cfd11ccdb47624c9b22db"},
+    {"path": "mocks/MappingGraphKernel.Tests/MappingGraphKernelTests.cs", "sha256": "ff25df68625dd701d0c26141c9c2a3137114ab29b2581310e75e95f7555931dd"},
+    {"path": "tasks/parallel/GC-PAR-004.md", "sha256": "4fc833a44c80111a83a785a3c7f2b337e4407c2d9c29e0c180a5d3a462d83fe6"}
+  ],
+  "wiring": {
+    "how_to_hook": "Use MappingGraphKernel mock for testing; swap with real kernel driver implementation when available."
+  },
+  "results": {
+    "notes": "dotnet test mocks/MappingGraphKernel.Tests succeeded"
+  }
+}

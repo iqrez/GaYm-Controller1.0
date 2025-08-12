@@ -1,0 +1,22 @@
+{
+  "task_id": "GC-PAR-001",
+  "title": "Wire Pack (C#) + Golden Frames",
+  "component": "parallel",
+  "version": "0.1",
+  "reference": {
+    "consulted": true,
+    "files": ["reference/README.md"],
+    "notes": ""
+  },
+  "files": [
+    {"path":"shared/Contracts/Wire.cs","sha256":"d5a89821c1cefc9184ba2bcd8cbdb12b0a404fce0d014d8a67e69d5e8f17d6cf"},
+    {"path":"tests/WireTests/WirePackTests.cs","sha256":"2d1b1a838e210e5ba4ede2054ed6692b7890ac9186f0dfbaa5414d8d4cd2640f"},
+    {"path":"tests/WireTests/WireTests.csproj","sha256":"cd18e54ad44e6ec583ecc4d7b5c0e0b876aa370fa562172868ca731f2a14d20c"}
+  ],
+  "wiring": {
+    "how_to_hook": "Use Wire.Pack* helpers to serialize messages prior to writing them to the broker pipe."
+  },
+  "results": {
+    "notes": "dotnet test tests/WireTests/WireTests.csproj"
+  }
+}

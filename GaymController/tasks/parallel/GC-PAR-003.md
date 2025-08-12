@@ -4,14 +4,19 @@
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.
 
 ## Paths to touch
-- (fill with your implementation files)
+- mocks/BrokerWire/BrokerWire.csproj
+- mocks/BrokerWire/MockBroker.cs
+- mocks/BrokerWire/MockApp.cs
+- mocks/BrokerWire/WireIO.cs
+- mocks/BrokerWire.Tests/BrokerWire.Tests.csproj
+- mocks/BrokerWire.Tests/BrokerWireTests.cs
 
 ## Reference guidelines
 - Look for any related files in `reference/originals/*`, `reference/aim/*`, or `reference/traces/*`.
 - If behavior is replicated, list the files in your report.
 
 ## Steps
-1) Implement per the spec. 
+1) Implement per the spec.
 2) Add unit/integration tests or a harness snippet.
 3) Document wiring steps in your report.
 

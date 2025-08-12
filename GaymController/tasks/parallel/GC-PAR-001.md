@@ -4,7 +4,11 @@
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.
 
 ## Paths to touch
-- (fill with your implementation files)
+- shared/Contracts/Wire.cs
+- tests/WireTests/WirePackTests.cs
+- tests/WireTests/WireTests.csproj
+- reports/GC-PAR-001.md
+- reports/GC-PAR-001.json
 
 ## Reference guidelines
 - Look for any related files in `reference/originals/*`, `reference/aim/*`, or `reference/traces/*`.

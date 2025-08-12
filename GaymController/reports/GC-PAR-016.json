@@ -1,0 +1,25 @@
+{
+  "task_id": "GC-PAR-016",
+  "title": "HID Cloaking Filter (kernel lower-filter)",
+  "version": "1.0.0",
+  "component": "drivers/gc_filter",
+  "reference": {
+    "consulted": true,
+    "files": ["spec/61_HID_CLOAKING.md"]
+  },
+  "files": [
+    {"path": "drivers/gc_filter/hid_cloaking_filter.h", "sha256": "9da5a7e6f83d0abfe391703bba529c1583b82ad8d3bb5458e2916da0e2413532"},
+    {"path": "drivers/gc_filter/hid_cloaking_filter.c", "sha256": "312b851710430c30d73273fb739960787aca2cd25e898a13831ff51b3f871b82"},
+    {"path": "drivers/gc_filter/hid_cloaking_filter_tests.c", "sha256": "8d31c8b076f226139cfdd48e4a1e9353ae7b7208b8ce2c9c93d98fbd3e955970"},
+    {"path": "reports/GC-PAR-016.md", "sha256": "0acebb2bea8e6cfaea23c2307d174d15fbcca31c5e72b8ed43f09627776be0d0"},
+    {"path": "tasks/parallel/GC-PAR-016.md", "sha256": "80f7b2d32ef3eeeedfb7cae46de1fd85602deb5aad267fe556ad92ee86b4f2da"}
+    ,{"path": "reports/GC-PAR-016.json", "sha256": "7ea1fc5ca423d52e4ce3304e588850d2c547c73d5a28f173bbe685a72c6d3b45"}
+  ],
+  "wiring": {
+    "how_to_hook": "Compile hid_cloaking_filter.c into the HIDClass lower-filter and expose HidCloak_IoControl to the broker. Broker must issue IOCTL_HID_CLOAK_ALLOW before processes open devices."
+  },
+  "results": {
+    "perf_ms": 0,
+    "notes": "gcc hid_cloaking_filter_tests passed."
+  }
+}

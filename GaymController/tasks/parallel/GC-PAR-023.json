@@ -1,6 +1,6 @@
 {
   "task_id": "GC-PAR-023",
-  "title": "Tap-Dance/Combo Node",
+  "title": "Auto-Sprint Toggle Node",
   "component": "parallel",
   "version": "0.1",
   "reference": {

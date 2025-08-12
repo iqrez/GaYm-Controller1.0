@@ -1,4 +1,4 @@
-# GC-PAR-023 — Tap-Dance/Combo Node
+# GC-PAR-023 — Auto-Sprint Toggle Node
 
 ## Context
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.

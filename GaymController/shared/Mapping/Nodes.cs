@@ -40,4 +40,20 @@ namespace GaymController.Shared.Mapping {
         public void OnTick(double dtMs){ if(!_armed)return; var k = Math.Exp(-dtMs/Math.Max(1.0,DecayMs)); _v*=k; }
         public double Output()=> -_v;
     }
+    public sealed class AutoSprintNode : INode {
+        public string Id{get;} public double Threshold{get;set;}=0.5;
+        private bool _enabled; private bool _toggleHeld; private double _move; private bool _out;
+        public AutoSprintNode(string id){ Id=id; }
+        public void OnEvent(InputEvent e){
+            if(e.Source=="Toggle"){
+                var pressed = e.Value>0.5;
+                if(pressed && !_toggleHeld){ _enabled=!_enabled; }
+                _toggleHeld = pressed;
+            } else if(e.Source=="Move"){
+                _move = e.Value;
+            }
+        }
+        public void OnTick(double dtMs){ _out = _enabled && Math.Abs(_move) >= Threshold; }
+        public bool Output()=>_out;
+    }
 }

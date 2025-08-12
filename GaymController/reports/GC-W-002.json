@@ -1,0 +1,23 @@
+{
+  "task_id": "GC-W-002",
+  "title": "HID Enumeration & Path Selection",
+  "version": "0.1",
+  "component": "wooting",
+  "reference": {
+    "consulted": false,
+    "files": [],
+    "notes": ""
+  },
+  "files": [
+    {"path": "src/GaymController.Wooting/GaymController.Wooting.csproj"},
+    {"path": "src/GaymController.Wooting/RawHidProvider.cs"},
+    {"path": "src/GaymController.Wooting.Tests/RawHidProviderTests.cs"},
+    {"path": "reports/GC-W-002.md"}
+  ],
+  "wiring": {
+    "how_to_hook": "Instantiate RawHidProvider and call Start(); it selects the first supported device path via EnumerateDevicePaths."
+  },
+  "results": {
+    "notes": "dotnet test"
+  }
+}

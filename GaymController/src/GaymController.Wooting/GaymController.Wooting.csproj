@@ -1,9 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <!-- Multi-target so test project can run cross-platform -->
+    <TargetFrameworks>net8.0;net8.0-windows</TargetFrameworks>
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\shared\Shared.csproj" />
+    <!-- HidSharp provides cross-platform HID enumeration without vendor SDK -->
+    <PackageReference Include="HidSharp" Version="2.1.0" />
   </ItemGroup>
 </Project>

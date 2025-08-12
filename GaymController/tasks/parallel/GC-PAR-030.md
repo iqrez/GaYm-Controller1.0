@@ -1,10 +1,15 @@
-# GC-PAR-030 — Perf Soak Harness
+# GC-PAR-030 — Backpressure
 
 ## Context
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.
 
 ## Paths to touch
-- (fill with your implementation files)
+- shared/BackpressureQueue.cs
+- shared/Shared.csproj
+- tests/Shared.Tests/BackpressureQueueTests.cs
+- tests/Shared.Tests/Shared.Tests.csproj
+- reports/GC-PAR-030.md
+- reports/GC-PAR-030.json
 
 ## Reference guidelines
 - Look for any related files in `reference/originals/*`, `reference/aim/*`, or `reference/traces/*`.

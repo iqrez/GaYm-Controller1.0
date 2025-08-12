@@ -15,7 +15,7 @@
     {"path": "tests/Shared.Tests/Shared.Tests.csproj"}
   ],
   "wiring": {
-    "how_to_hook": ""
+    "how_to_hook": "Instantiate BackpressureQueue with desired capacity and use EnqueueAsync/DequeueAsync to move items between producers and consumers."
   },
   "results": {
     "notes": ""

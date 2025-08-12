@@ -4,15 +4,23 @@
   "version": "0.1",
   "component": "legacy",
   "reference": {
-    "consulted": false,
-    "files": [],
+    "consulted": true,
+    "files": [
+      "reference/PERFECT/Processing/CurveProcessor.cs"
+    ],
     "notes": ""
   },
-  "files": [],
+  "files": [
+    "plugins/LegacyMouseAim.Legacy/LegacyMouseAim.Legacy.csproj",
+    "plugins/LegacyMouseAim.Legacy/CurveProcessor.cs",
+    "plugins/LegacyMouseAim.Legacy/LegacyMouseAim.cs",
+    "tools/LegacyAimHarness/LegacyAimHarness.csproj",
+    "tools/LegacyAimHarness/Program.cs"
+  ],
   "wiring": {
-    "how_to_hook": ""
+    "how_to_hook": "dotnet run --project tools/LegacyAimHarness [iterations]"
   },
   "results": {
-    "notes": ""
+    "notes": "Harness ran 600000 iterations."
   }
 }

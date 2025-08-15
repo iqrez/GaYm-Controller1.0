@@ -1,0 +1,23 @@
+{
+  "task_id": "GC-PAR-018",
+  "title": "Macro/Turbo Scheduler",
+  "version": "0.1",
+  "component": "parallel",
+  "reference": {
+    "consulted": true,
+    "files": ["reference/PERFECT/Macros/MacroEngine.cs"],
+    "notes": ""
+  },
+  "files": [
+    { "path": "shared/Mapping/Scheduler.cs", "sha256": "7545fc0be1814b3f386e2a0198c647fcce66d1f809550bb39ddfe7ab83e345cc" },
+    { "path": "tests/Shared.Tests/Shared.Tests.csproj", "sha256": "77344ab66a4219236418f1a3deba65a17c18a1922121b3aa017ca6e535f91224" },
+    { "path": "tests/Shared.Tests/TurboSchedulerTests.cs", "sha256": "6fe664bbab43c614d088d5c3d93226339620412666b66d4fbb06ed1119738ac4" },
+    { "path": "reports/GC-PAR-018.md", "sha256": "7e9e02a8361a8f302964b058d359a9ccc7e5b922b9fb6a0357dc75728a966e88" }
+  ],
+  "wiring": {
+    "how_to_hook": "Create a Scheduler, register mapping nodes, and advance ticks from a timer loop."
+  },
+  "results": {
+    "notes": "dotnet test passing"
+  }
+}

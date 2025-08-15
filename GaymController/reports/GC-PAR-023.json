@@ -1,0 +1,25 @@
+{
+  "task_id": "GC-PAR-023",
+  "title": "Auto-Sprint Toggle Node",
+  "component": "parallel",
+  "version": "0.1",
+  "reference": {
+    "consulted": false,
+    "files": [],
+    "notes": ""
+  },
+  "files": [
+    {"path": "shared/Mapping/Nodes.cs", "sha256": "b38a186a4e7971eb966d018998831c960ec46a114b0625b8555c4882548d560c"},
+    {"path": "tests/Mapping.Tests/AutoSprintNodeTests.cs", "sha256": "34304ce59e25ed8a1e558fb0aca4b72a5478022e75c3bfff9031613947530e39"},
+    {"path": "tests/Mapping.Tests/Mapping.Tests.csproj", "sha256": "61a1ea1fa2abb2377e550c7c09f32c5fd4508c561ca0f276ef4461845d257ac3"},
+    {"path": "tasks/parallel/GC-PAR-023.md", "sha256": "3455e373321e2a9ec41ee58cbd3f9eeb31c77bd0895d4ddc03d6e7d371a023dd"},
+    {"path": "tasks/parallel/GC-PAR-023.json", "sha256": "733f01d80d508be7734ffaeeec02caa6c63e14833e4246b6b318fdff438d6b94"},
+    {"path": "reports/GC-PAR-023.md", "sha256": "cdb9ea083d32a84fdd729168aeb842a65dbc0839e902bfc2ba18b9df736c7607"}
+  ],
+  "wiring": {
+    "how_to_hook": "Use AutoSprintNode with Move/Toggle events and read Output() for sprint state."
+  },
+  "results": {
+    "notes": "dotnet test tests/Mapping.Tests/Mapping.Tests.csproj"
+  }
+}

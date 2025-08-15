@@ -31,14 +31,20 @@ namespace GaymController.Shared.Mapping {
     }
     public sealed class AntiRecoilNode : INode {
         public string Id{get;} public double VerticalComp{get;set;}=0.15; public double DecayMs{get;set;}=120.0;
+        public bool Enabled{get;set;}=false;
         private double _v; private bool _armed;
         public AntiRecoilNode(string id){ Id=id; }
         public void OnEvent(InputEvent e){
-            if(e.Source=="Fire" && e.Value>0.5){ _armed=true; _v=VerticalComp; }
-            if(e.Source=="Fire" && e.Value<=0.5){ _armed=false; }
+            if(e.Source!="Fire") return;
+            if(Enabled && e.Value>0.5){ _armed=true; _v=VerticalComp; }
+            else { _armed=false; _v=0.0; }
         }
-        public void OnTick(double dtMs){ if(!_armed)return; var k = Math.Exp(-dtMs/Math.Max(1.0,DecayMs)); _v*=k; }
-        public double Output()=> -_v;
+        public void OnTick(double dtMs){
+            if(!Enabled || !_armed) return;
+            var k = Math.Exp(-dtMs/Math.Max(1.0,DecayMs));
+            _v*=k;
+        }
+        public double Output()=> (Enabled && _armed) ? -_v : 0.0;
     }
     public sealed class AutoSprintNode : INode {
         public string Id{get;} public double Threshold{get;set;}=0.5;

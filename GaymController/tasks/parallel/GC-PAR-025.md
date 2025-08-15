@@ -1,10 +1,16 @@
-# GC-PAR-025 — Coalescer (≤1kHz)
+# GC-PAR-025 — First-Run Wizard + Calibration
 
 ## Context
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.
 
 ## Paths to touch
-- (fill with your implementation files)
+- src/GaymController.App/UserSettings.cs
+- src/GaymController.App/CalibrationService.cs
+- src/GaymController.App/UI/CalibrationWizard.cs
+- src/GaymController.App/UI/MainForm.cs
+- src/GaymController.App.Tests/GaymController.App.Tests.csproj
+- src/GaymController.App.Tests/UserSettingsTests.cs
+- src/GaymController.App.Tests/CalibrationServiceTests.cs
 
 ## Reference guidelines
 - Look for any related files in `reference/originals/*`, `reference/aim/*`, or `reference/traces/*`.

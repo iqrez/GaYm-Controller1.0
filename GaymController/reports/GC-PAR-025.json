@@ -1,0 +1,26 @@
+{
+  "task_id": "GC-PAR-025",
+  "title": "First-Run Wizard + Calibration",
+  "version": "0.1",
+  "component": "parallel",
+  "reference": {
+    "consulted": true,
+    "files": ["reference/PERFECT/OverlayForm.cs"],
+    "notes": ""
+  },
+  "files": [
+    {"path": "src/GaymController.App/UserSettings.cs", "sha256": "ddee0710d417be0bc203c89d3a129af541acf6a11eb21a3f2c32cf884df017a3"},
+    {"path": "src/GaymController.App/CalibrationService.cs", "sha256": "a75b89f6754104c0992f8892f7e7bfba3b6be02b3a1b0a6faa9329a3b4427a61"},
+    {"path": "src/GaymController.App/UI/CalibrationWizard.cs", "sha256": "84f0cb68ea4651c65d3005bd32ba46d70693ba77bc68ad8c69519c7e832466d2"},
+    {"path": "src/GaymController.App/UI/MainForm.cs", "sha256": "9663e63f2514de256279e2dfed855d2732b06de4aeba3007a2130cfd1fef2c7c"},
+    {"path": "src/GaymController.App.Tests/GaymController.App.Tests.csproj", "sha256": "96dcccd23bb331fbe69cc20ba81a6653f570c9ec8ed137e3bf1d276edece0f25"},
+    {"path": "src/GaymController.App.Tests/UserSettingsTests.cs", "sha256": "97b28a420387d6a45083b3b45729e519aa29a3f34a3aed0e5777e1864bd1563d"},
+    {"path": "src/GaymController.App.Tests/CalibrationServiceTests.cs", "sha256": "be4e903aee4e30cf0501530d386fff797918d445d4de3f8ca2ef240600b86a2b"}
+  ],
+  "wiring": {
+    "how_to_hook": "MainForm launches CalibrationWizard on first run"
+  },
+  "results": {
+    "notes": "Wizard and calibration stubs implemented"
+  }
+}

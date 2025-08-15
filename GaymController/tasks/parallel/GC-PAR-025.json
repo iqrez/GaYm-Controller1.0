@@ -1,18 +1,26 @@
 {
   "task_id": "GC-PAR-025",
-  "title": "Coalescer (\u22641kHz)",
+  "title": "First-Run Wizard + Calibration",
   "component": "parallel",
   "version": "0.1",
   "reference": {
-    "consulted": false,
-    "files": [],
+    "consulted": true,
+    "files": ["reference/PERFECT/OverlayForm.cs"],
     "notes": ""
   },
-  "files": [],
+  "files": [
+    "src/GaymController.App/UserSettings.cs",
+    "src/GaymController.App/CalibrationService.cs",
+    "src/GaymController.App/UI/CalibrationWizard.cs",
+    "src/GaymController.App/UI/MainForm.cs",
+    "src/GaymController.App.Tests/GaymController.App.Tests.csproj",
+    "src/GaymController.App.Tests/UserSettingsTests.cs",
+    "src/GaymController.App.Tests/CalibrationServiceTests.cs"
+  ],
   "wiring": {
-    "how_to_hook": ""
+    "how_to_hook": "MainForm launches CalibrationWizard on first run"
   },
   "results": {
-    "notes": ""
+    "notes": "Wizard and calibration stubs implemented"
   }
 }

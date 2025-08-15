@@ -1,0 +1,22 @@
+{
+  "task_id": "GC-PAR-017",
+  "title": "Mapping Graph Runtime (no-GC)",
+  "version": "0.1",
+  "component": "parallel",
+  "reference": {
+    "consulted": false,
+    "files": [],
+    "notes": ""
+  },
+  "files": [
+    {"path": "shared/Mapping/Graph.cs", "sha256": "d7f42e91e3bf989450369b8c66509d9438f95a3adbda14ad13d35276768a5ca9"},
+    {"path": "tests/MappingGraph.Tests/GraphTests.cs", "sha256": "84b533c6512eb8e92a8e35aa7dc523292fc459a20610a7856da2dd10b3785f3b"},
+    {"path": "tests/MappingGraph.Tests/MappingGraph.Tests.csproj", "sha256": "3a2540d476b7342c304272e1ca0f843a2be83bb2793d8792e1d9cc015fced131"}
+  ],
+  "wiring": {
+    "how_to_hook": "Use GraphBuilder to register nodes and connections, build the graph, then send input with OnEvent and call Tick each frame."
+  },
+  "results": {
+    "notes": "dotnet test passed"
+  }
+}

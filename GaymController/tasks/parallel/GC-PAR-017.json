@@ -8,11 +8,15 @@
     "files": [],
     "notes": ""
   },
-  "files": [],
+  "files": [
+    "shared/Mapping/Graph.cs",
+    "tests/MappingGraph.Tests/GraphTests.cs",
+    "tests/MappingGraph.Tests/MappingGraph.Tests.csproj"
+  ],
   "wiring": {
-    "how_to_hook": ""
+    "how_to_hook": "Use GraphBuilder to register nodes and connections, then build and drive the graph"
   },
   "results": {
-    "notes": ""
+    "notes": "dotnet test passed"
   }
 }

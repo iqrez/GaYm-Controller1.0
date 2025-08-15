@@ -4,7 +4,11 @@
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.
 
 ## Paths to touch
-- (fill with your implementation files)
+- drivers/gc_filter/hid_cloaking_filter.c
+- drivers/gc_filter/hid_cloaking_filter.h
+- drivers/gc_filter/hid_cloaking_filter_tests.c
+- reports/GC-PAR-016.md
+- reports/GC-PAR-016.json
 
 ## Reference guidelines
 - Look for any related files in `reference/originals/*`, `reference/aim/*`, or `reference/traces/*`.

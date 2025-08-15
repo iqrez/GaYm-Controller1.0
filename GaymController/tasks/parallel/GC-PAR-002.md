@@ -4,7 +4,12 @@
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.
 
 ## Paths to touch
-- (fill with your implementation files)
+- interfaces/AppSink/AppSink.cs
+- interfaces/AppSink/AppSink.csproj
+- mocks/MockBroker/MockBroker.cs
+- mocks/MockBroker/MockBroker.csproj
+- mocks/MockBroker.Tests/MockBroker.Tests.csproj
+- mocks/MockBroker.Tests/AppSinkBrokerTests.cs
 
 ## Reference guidelines
 - Look for any related files in `reference/originals/*`, `reference/aim/*`, or `reference/traces/*`.

@@ -6,7 +6,7 @@
   "reference": {
     "consulted": true,
     "files": ["reference/k/tests/VPadBroker.Tests/BrokerTests.cs"],
-    "notes": "Reviewed original broker tests to mirror IPC flow"
+    "notes": "Used wire.json to map message types"
   },
   "files": [
     "interfaces/AppSink/AppSink.cs",
@@ -17,7 +17,7 @@
     "mocks/MockBroker.Tests/AppSinkBrokerTests.cs"
   ],
   "wiring": {
-    "how_to_hook": "Wrap a NamedPipe stream with AppSink to talk to the broker; use MockBroker in tests"
+    "how_to_hook": "Wrap a NamedPipe stream with AppSink to communicate with a broker; MockBroker provides a test server"
   },
   "results": {
     "notes": "xUnit test confirms state delivery"

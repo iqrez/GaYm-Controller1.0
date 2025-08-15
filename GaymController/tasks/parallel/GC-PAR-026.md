@@ -1,4 +1,4 @@
-# GC-PAR-026 — Backpressure & Async Writes
+# GC-PAR-026 — MSI/Signing pipeline stubs
 
 ## Context
 Work from **interfaces/** and **mocks/** only. Keep hot paths allocation-free. **Consult `reference/` first** to understand legacy behavior/feel.

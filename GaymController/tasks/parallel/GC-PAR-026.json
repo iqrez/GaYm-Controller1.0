@@ -1,6 +1,6 @@
 {
   "task_id": "GC-PAR-026",
-  "title": "Backpressure & Async Writes",
+  "title": "MSI/Signing pipeline stubs",
   "component": "parallel",
   "version": "0.1",
   "reference": {
